@@ -14,4 +14,5 @@ import StarHtmlPrintLibrary from 'react-native-star-html-print-library';
 
 // TODO: What to do with the module?
 StarHtmlPrintLibrary;
+
 ```
