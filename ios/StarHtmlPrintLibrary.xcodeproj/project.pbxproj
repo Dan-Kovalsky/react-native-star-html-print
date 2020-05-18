@@ -6,6 +6,11 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F858BC9A2472931C003921AD /* StarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F858BC992472931C003921AD /* StarIO.framework */; };
+		F858BC9C24729360003921AD /* StarIO_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F858BC9B24729360003921AD /* StarIO_Extension.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libStarHtmlPrintLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStarHtmlPrintLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F858BC992472931C003921AD /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StarIO.framework; path = "../../Downloads/StarPRNT_iOS_SDK_V5_11_0 2/Software/SDK/StarIO.framework"; sourceTree = "<group>"; };
+		F858BC9B24729360003921AD /* StarIO_Extension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StarIO_Extension.framework; path = "../../Downloads/StarPRNT_iOS_SDK_V5_11_0 2/Software/SDK/StarIO_Extension.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F858BC9C24729360003921AD /* StarIO_Extension.framework in Frameworks */,
+				F858BC9A2472931C003921AD /* StarIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +54,17 @@
 			isa = PBXGroup;
 			children = (
 				134814211AA4EA7D00B7C361 /* Products */,
+				F858BC982472931B003921AD /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		F858BC982472931B003921AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F858BC9B24729360003921AD /* StarIO_Extension.framework */,
+				F858BC992472931C003921AD /* StarIO.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
