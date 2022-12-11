@@ -5463,9 +5463,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 range-parser@~1.2.1:
   version "1.2.1"
@@ -5485,9 +5485,10 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-"react-native-star-html-print-library@link:..":
-  version "0.0.0"
-  uid ""
+react-native-star-html-print-library@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-star-html-print-library/-/react-native-star-html-print-library-1.0.1.tgz#f16d6f0cb3f1b81907b202fd091a9ad179d0f851"
+  integrity sha512-Mk5IkHp5qLabZ4Cum3xp/CIGIYIvLdo3nMIHlWVnbsG9dKVedhb2lAXVzkxiB8lY9WMM8MRflAcSirFAfIG5nQ==
 
 react-native@0.62.2:
   version "0.62.2"
